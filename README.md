@@ -130,6 +130,4 @@ Contact: support@aimarketplace.com
 
 🔗 Links
 
-Documentation
-Demo
-Blog
+Demo video:https://drive.google.com/file/d/1Krq20MMJkQmJxm8153duJohIY7Tg3n5c/view?usp=drive_link
