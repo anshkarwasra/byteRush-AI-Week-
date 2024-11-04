@@ -1,0 +1,77 @@
+.choose{
+    height: 150vh;
+    width: 100vw;
+    background: linear-gradient( 90deg, rgba(16,34,48,0.9) 0%, rgba(16,34,48,0.7) 49%,rgba(16,34,48,0.9) 100% ), url('./assets/cyberImages/5.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10vh;
+    padding:0rem 2rem;
+
+}
+
+.choose .questionHeading{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 30vw;
+    position: relative;
+    top:8vh;
+    left: 20vw;
+
+}
+
+.choose .questionHeading h1{
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Apex Mk2';
+}
+
+
+.choose .cardGroup{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: repeat(2,1fr);
+    gap:1rem;
+    top:3vh;
+    position: relative;
+    left:20vw;
+}
+.choose .cardGroup .card{
+
+    height: 300px;
+    width: 500px;
+    background:linear-gradient(#062A44, #06131E);
+    color: white;
+    text-align: center;
+    padding:2rem 4rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.choose .cardGroup .card h1{
+    font-size: 2.5rem;
+    font-family: 'Apex Mk2';
+    margin-bottom: 2rem;
+}
+
+.cyberMan{
+    position: relative;
+    left: 60vw;
+    top: -162vh;
+    /* aspect-ratio: 35/55; */
+    height: 55vh;
+    width: 25vw;
+}
+
+.cyberMan img{
+    height: inherit;
+    width: inherit;
+}
+
+.bgNeon{
+    background-color: aqua;
+    color: white;
+}

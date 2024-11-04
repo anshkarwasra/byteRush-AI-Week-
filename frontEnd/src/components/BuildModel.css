@@ -1,0 +1,88 @@
+.buildModel{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( 90deg, rgba(16,34,48,0.9) 0%, rgba(16,34,48,0.7) 49%,rgba(16,34,48,0.9) 100% ), url('./assets/cyberImages/6.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-size: 100%;
+    border-bottom: 2px solid white;
+}
+
+.buildModel .slogenSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    color: white;
+}
+
+.buildModel .slogenSec .slogenHeading{
+    font-size: 3.5rem;
+    font-family: 'Apex Mk2';
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    top:42vh;
+    z-index: 999;
+}
+.buildModel .slogenSec .slogenHeading div{
+    font-family: 'Apex Mk2';
+    position: relative;
+    font-weight: 600;
+}
+
+.buildModel .slogenSec .slogenHeading div:nth-child(1){
+    left:-120px;
+}
+
+.buildModel .slogenSec .slogenPara{
+    width: 200px;
+    position: relative;
+    top: 42vh;
+    /* text-align: center; */
+    /* font-size: 1.5rem; */
+}
+
+.buildModel .cyber{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+
+}
+
+.buildModel .cyber img{
+    height: inherit;
+    width: inherit;
+    aspect-ratio: 1/1;
+}
+
+/* .buildModel .cyber:nth-child(1){
+    left: 60vw;
+    top:123vh;
+} */
+
+.buildModel .cyber{
+    left:40vw;
+    top:37vh;
+}
+
+.buildModel .cyber + *{
+    top:73vh;
+    left: 28vw;
+}
+
+.buildModel .cyber + * + *{
+    top:73vh;
+    left: 60vw;
+}
+
+.buildModel .cyber + * + * + *{
+    top:73vh;
+    left: calc(60vw + 210px);
+}
+
+.buildModel .cyber + * + * + * + *{
+    top:37vh;
+    left: calc(60vw + 210px);
+}

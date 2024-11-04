@@ -1,0 +1,72 @@
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #192532;
+  overflow-y: scroll;
+}
+
+.neon{
+  color:#01EAF9;
+  font-family: 'Apex Mk2';
+}
+
+/* body{
+  background-image: url('./assets/background.jpeg');
+  background: linear-gradient( 90deg, rgba(16,34,48,0.9) 0%, rgba(16,34,48,0.7) 49%,rgba(16,34,48,0.9) 100% ), url('./assets/background.jpeg');
+  object-fit: cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+/* } */ 
+
+
+nav .menu ul button,.btnClass{
+  background-color: #01EAF9;
+  padding:1rem 3rem;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  font-family: 'Apex Mk2';
+  color: white;
+  position: relative;
+  border: none;
+  outline: none;
+  margin-left: 40px;
+}
+
+nav .menu ul button:hover,.btnClass:hover{
+
+  cursor: pointer;
+}
+
+nav .menu ul button::after,.btnClass::after{
+  content: '';
+  position: absolute;
+  background-color: #01EAF9;
+  /* background-color: red; */
+  height: 33px;
+  width: 13px;
+  left: -6px;
+  top:0;
+  border-bottom-left-radius: 100%;
+}
+
+nav .menu ul button::before,.btnClass::before{
+  content: '';
+  position: absolute;
+  background-color: #01EAF9;
+  /* background-color: red; */
+  height: 33px;
+  width: 13px;
+  right: -6px;
+  bottom:0;
+  border-top-right-radius: 100%;
+}

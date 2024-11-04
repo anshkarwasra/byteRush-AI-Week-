@@ -1,0 +1,82 @@
+.about{
+    height: 150vh;
+    width: 100vw;
+    /* background-image: url('./assets/background.jpeg'); */
+    background: linear-gradient( 90deg, rgba(16,34,48,0.9) 0%, rgba(16,34,48,0.7) 49%,rgba(16,34,48,0.9) 100% ), url('./assets/hongKong.jpeg');
+  object-fit: cover;
+  background-size: 100%;
+  border-bottom: 2px solid white;
+  
+}
+
+.left{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    top: 20vh;
+    left: 0vw;
+}
+
+.left .header h1{
+    font-size: 4.3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.left .header h1 span{
+    color: #01EAF9;
+    margin-left: 113px;
+}
+
+.left .header p{
+    color: white;
+    margin-top: 30px;
+    margin-left: 113px;
+}
+
+.left .para{
+    color: white;
+    margin-top: 30px;
+    margin-left: 113px;
+}
+
+.left .para h2{
+    color: #01EAF9;
+    margin-top: 30px;
+    /* margin-left: 113px; */
+}
+
+.imageContainer{
+    display: flex;
+    gap: 20px;
+    width: 60vw;
+}
+
+.imageContainer .imgBox{
+    height: 70vh;
+    width: 40vw;
+    border-radius: 10px;
+    overflow: hidden;
+    /* border: 4px solid red; */
+}
+
+.imgBox img{
+    /* object-fit: contain; */
+    /* object-position: center; */
+    object-fit: cover;
+    height: inherit;
+    width: 50vh;
+    aspect-ratio: 4/7;
+    margin-left: -10vw;
+}
+
+.right{
+    position: relative;
+    left:33vw;
+    top:-20vw;
+}
+
+

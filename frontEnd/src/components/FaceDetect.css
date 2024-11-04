@@ -1,0 +1,23 @@
+
+.demo{
+    padding-top: 120px;
+    height: auto;
+    width: 100vw;
+    background-color: #222222;
+    
+  }
+  
+  .demo .grid{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    place-items: center;
+  }
+  
+  .demo .Demoheading{
+    font-size: 60px;
+    font-family: roboto;
+    color: white;
+    text-align: center;
+  };

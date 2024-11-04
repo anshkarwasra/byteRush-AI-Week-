@@ -1,0 +1,35 @@
+.heading{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url('./assets/background.jpeg'); */
+    background: linear-gradient( 90deg, rgba(16,34,48,0.9) 0%, rgba(16,34,48,0.7) 49%,rgba(16,34,48,0.9) 100% ), url('./assets/background.jpeg');
+  object-fit: cover;
+  background-size: 100%;
+  
+}
+
+.text{
+    width: 30vw;;
+}
+
+.text h1,.text p{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    top: 30vh;
+    left: 10vw;
+}
+
+.text h1{
+    font-size: 3.3rem;
+}
+
+.img img{
+    height: 80vh;
+    width: 40vw;
+    position: relative;
+    top: -10vh;
+    left: 50vw;
+}
